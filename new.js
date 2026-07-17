@@ -165,8 +165,8 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
 
       emailjs.send(
-        "service_ol91pno",
-        "template_yqc68vs",
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
         {
           name: document.getElementById("name").value,
           email: document.getElementById("email").value,
